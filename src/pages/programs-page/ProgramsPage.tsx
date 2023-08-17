@@ -1,11 +1,7 @@
-import "./ProgramsPage.scss"
+import "../programs-page/ProgramsPage.scss";
 
-const ProgramsPage = () => {
-    return (
-      <div>
-
-      </div>
-    );
-};
+function ProgramsPage() {
+  return <div></div>;
+}
 
 export default ProgramsPage;

@@ -1,11 +1,7 @@
-import "./GetInvolvedPage.scss"
+import "../get-involved-page/GetInvolvedPage.scss";
 
-const GetInvolvedPage = () => {
-    return (
-      <div>
-
-      </div>
-    );
-};
+function GetInvolvedPage() {
+  return <div></div>;
+}
 
 export default GetInvolvedPage;
