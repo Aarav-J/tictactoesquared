@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Geist+Mono:wght@100..900&family=Oxygen+Mono&display=swap');
+@import "tailwindcss";
+
+
+@theme{ 
+  --color-background: var(--background);
+  --color-main: #FD77D7;
+  --color-text: #EBEBEF; 
+  --color-grey: #8490a7;
+  --font-oxygen: "Oxygen", monospace; 
+  --font-anon: "Anonymous Pro", monospace;
+  --font-geist: "Geist Mono", monospace;
+  
+} 
+
+:root { 
+  --background: #0A0812;
+}
+
+
+body { 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  isolation: isolate;
+
+}
+
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
